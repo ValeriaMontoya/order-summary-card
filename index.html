@@ -10,17 +10,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/desktop.css" media="screen and (min-width: 1440px)">
   <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
   <main>
     <div class="card">
       <figure>
-        <img src="./images/illustration-hero.svg" alt="Ilustration of a person listening to music">
+        <img class="image" src="./images/illustration-hero.svg" alt="Ilustration of a person listening to music">
       </figure>
       <div class="container">
         <h1>Order Summary</h1>
-        <p>
+        <p class="description">
           You can now listen to millions of songs, audiobooks, and podcasts on any
           device anywhere you like!
         </p>
@@ -32,17 +33,17 @@
             <p class="plan-type">Annual Plan</p>
             <p>$59.99/year</p>
           </div>
-          <p class="change-plan">Change</p>
+          <a class="change-plan">Change</a>
         </div>
-        <button class="main-button">Proceed to Payment</buttonc>
-        <button class="secondary-button">Cancel Order</button>
+        <button class="main-button">Proceed to Payment</button>
+        <a class="cancel">Cancel Order</a>
       </div>
     </div>
   </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Valeria Montoya</a>.
+    Coded by <a href="https://github.com/ValeriaMontoya">Valeria Montoya</a>.
   </div>
 </body>
 </html>

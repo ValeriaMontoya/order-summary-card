@@ -1,0 +1,46 @@
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+}
+
+main .card {
+  width: 450px;
+}
+
+main .card .container {
+  padding: 4.2rem;
+}
+
+main .card .description {
+  margin-bottom: 2.5rem;
+  line-height: 2.8rem;
+}
+
+main .card .plan-info {
+  margin-right: 120px;
+}
+
+main .card .change-plan:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #766cf1;
+}
+
+main .card .main-button {
+  margin-bottom: 30px;
+}
+
+main .card .main-button:hover {
+  cursor: pointer;
+  background-color: #766cf1;
+}
+
+main .card .cancel {
+  color: rgb(114, 114, 114);
+  font-weight: 700;
+}
+
+main .card .cancel:hover {
+  cursor: pointer;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
