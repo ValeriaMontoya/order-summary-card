@@ -21,7 +21,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/ValeriaMontoya/order-summary-card)
-- Live Site URL: [Live site URL on GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [Live site URL on GitHub Pages](https://valeriamontoya.github.io/order-summary-card/)
 
 ### Built with
 
