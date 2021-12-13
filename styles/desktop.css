@@ -16,8 +16,12 @@ main .card .description {
   line-height: 2.8rem;
 }
 
+main .card .plan {
+  justify-content: space-around;
+}
+
 main .card .plan-info {
-  margin-right: 120px;
+  margin-right: 80px;
 }
 
 main .card .change-plan:hover {
