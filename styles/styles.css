@@ -51,7 +51,7 @@ main .card {
 }
 
 main .card .container {
-  padding: 2.8rem;
+  padding: 28px;
 }
 
 main .card .image {
@@ -62,12 +62,12 @@ main .card h1 {
   color: var(--dark-blue);
   font-weight: 900;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 main .card .description {
-  margin-bottom: 3.2rem;
-  line-height: 2.8rem;
+  margin-bottom: 32px;
+  line-height: 28px;
 }
 
 main .card .plan {
@@ -75,15 +75,15 @@ main .card .plan {
   justify-content: space-between;
   align-items: center;
   background-color: var(--very-pale-blue);
-  padding: 1.5rem;
+  padding: 15px;
   border-radius: 10px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 25px;
 }
 
 main .card .plan-type {
   font-weight: 900;
   color: var(--dark-blue);
-  margin-bottom: 0.5rem;
+  margin-bottom: 5px;
 }
 
 main .card .change-plan {
@@ -97,12 +97,12 @@ main .card .main-button {
   border: none;
   color: white;
   background-color: var(--bright-blue);
-  padding: 1.4rem;
+  padding: 14px;
   border-radius: 10px;
   width: 100%;
   font-weight: 700;
-  font-size: 1.7rem;
-  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);

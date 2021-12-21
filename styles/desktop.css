@@ -10,12 +10,12 @@ main .card {
 }
 
 main .card .container {
-  padding: 4.2rem;
+  padding: 42px;
 }
 
 main .card .description {
-  margin-bottom: 2.5rem;
-  line-height: 2.8rem;
+  margin-bottom: 25px;
+  line-height: 28px;
 }
 
 main .card .plan {
