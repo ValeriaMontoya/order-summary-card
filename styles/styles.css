@@ -94,13 +94,14 @@ main .card .change-plan {
 }
 
 main .card .change-plan:hover {
-  cursor: pointer;
   text-decoration: none;
   color: #766cf1;
 }
 
 main .card .main-button {
+  display: inline-block;
   border: none;
+  text-decoration: none;
   color: white;
   background-color: var(--bright-blue);
   padding: 14px;
@@ -115,17 +116,16 @@ main .card .main-button {
 }
 
 main .card .main-button:hover {
-  cursor: pointer;
   background-color: #766cf1;
 }
 
 main .card .cancel {
   color: rgb(114, 114, 114);
   font-weight: 700;
+  text-decoration: none;
 }
 
 main .card .cancel:hover {
-  cursor: pointer;
   font-weight: 900;
   color: hsl(223, 47%, 23%);
 }
